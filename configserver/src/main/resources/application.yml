@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configserver
+  # profiles:
+    # active: native  # 使用本地文件系统的存储方式来保存配置信息
+  # 使用git方式
+  cloud:
+    config:
+      server:
+        git:  # 使用git方式远程读取配置文件
+          # username: 13267195006
+          # password: @wjy50030806
+          uri: https://gitee.com/skypiaoxue/microservice2.git
+          default-label: master
+server:
+  port: 8888
+

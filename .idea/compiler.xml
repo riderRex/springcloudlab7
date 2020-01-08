@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configclient" />
+        <module name="configserver" />
+        <module name="eurekagatewayzuul" />
+        <module name="eurekaorder" />
+        <module name="eurekaserver" />
+        <module name="eurekauser" />
+        <module name="eurekauserhystrix" />
+        <module name="eurekauserhystrixdashboard" />
+        <module name="springcloudlab2" />
+        <module name="springcloudlab3" />
+        <module name="springcloudlab4" />
+        <module name="springcloudlab5" />
+        <module name="webclient" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configclient
+  cloud:
+    config:
+      profile: prod  # 配置服务中的{profile}
+      label: master # 对应git中的分支，默认为master
+      uri: http://localhost:8888/   # 配置中心的地址
+server:
+  port: 8801
+
+management:
+  server:
+    ssl:
+      enabled: false # 是否开启actuator
+
+
